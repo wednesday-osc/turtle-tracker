@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+
+# Expo / Metro
+.expo/
+dist/
+.web-build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local env
+.env
+.env.*
+
+# Gradle / build cache
+.gradle/
+
+# generated build outputs
+**/build/
+**/.cxx/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# temporary files
+*.tmp
+*.temp

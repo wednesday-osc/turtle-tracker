@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Turtle Tracker",
+    "slug": "turtle-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./resources/logo.jpg",
+    "platforms": ["android"],
+    "android": {
+      "package": "com.cc.turtletracker",
+      "adaptiveIcon": {
+        "foregroundImage": "./resources/logo.jpg",
+        "backgroundColor": "#f7f9fc"
+      },
+      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "POST_NOTIFICATIONS"]
+    },
+    "plugins": [
+      "expo-document-picker",
+      "expo-notifications"
+    ]
+  }
+}
